@@ -50,17 +50,17 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - '='
   - LCTRL
   - LALT
   - LCMD
-  - {t: lower, h: toggle}
+  - {t: adjust, h: toggle}
   - SPACE
   - RET
   - raise
   - '-'
-  - +
-  - RGUI
+  - '['
+  - ']'
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -115,10 +115,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: raise, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,7 +143,7 @@ layers:
   - {t: ▽, type: trans}
   - PG UP
   - {t: ▽, type: trans}
-  - UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
@@ -154,9 +154,9 @@ layers:
   - {t: ▽, type: trans}
   - CLCK
   - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - DEL
   - BSPC
   - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: lower, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -237,7 +237,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: lower, h: toggle}
   - ''
   - ''
   - {type: held}
