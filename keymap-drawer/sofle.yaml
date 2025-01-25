@@ -71,8 +71,8 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB BRD
+  - RGB BRI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,11 +83,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
+  - RGB SAD
+  - RGB SAI
+  - RGB SPD
+  - RGB SPI
+  - DEL
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
@@ -95,10 +95,10 @@ layers:
   - {t: ▽, type: trans}
   - CLCK
   - PG DN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DEL
+  - RGB HUD
+  - RGB HUI
+  - RGB EFR
+  - RGB EFF
   - BSPC
   - {t: ▽, type: trans}
   - UNDO
@@ -109,9 +109,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB COLOR HSB(26,40,79)
   - UP ARROW
-  - {t: ▽, type: trans}
+  - RGB TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
