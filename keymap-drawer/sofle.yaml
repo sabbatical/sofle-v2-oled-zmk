@@ -75,7 +75,7 @@ layers:
   - RGB BRI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&soft_off'
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -106,12 +106,12 @@ layers:
   - COPY
   - PASTE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - EP TOG
+  - OUT TOG
   - '`'
-  - RGB COLOR HSB(26,40,79)
-  - UP ARROW
   - RGB TOG
+  - UP ARROW
+  - RGB COLOR HSB(23,90,19)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
