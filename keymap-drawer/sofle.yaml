@@ -51,9 +51,9 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
-  - LALT
-  - LCMD
+  - {t: '`', h: LCTRL}
+  - {t: TAB, h: LALT}
+  - {t: Gui+TAB, h: LCMD}
   - adjust
   - SPACE
   - RET
