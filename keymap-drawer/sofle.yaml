@@ -1,7 +1,66 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, '`', Q, W, E, R, T, Y, U, I, O, P, \, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '=', N, M, ',', ., /, CAPSLOCK, LCTRL, LALT, LCMD, adjust, SPACE, RET, raise, '-', '[', ']']
+  default:
+  - {t: ESCAPE, h: CLCK}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - '`'
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - PLAY PAUSE
+  - '-'
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LCTRL
+  - LALT
+  - LCMD
+  - adjust
+  - SPACE
+  - RET
+  - {t: Gui+`, h: raise}
+  - {t: '=', h: lower}
+  - '['
+  - ']'
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -60,7 +119,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: raise, h: toggle}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
