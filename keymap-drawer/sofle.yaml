@@ -27,9 +27,9 @@ layers:
   - \
   - TAB
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: lower}
+  - {t: D, h: raise}
+  - {t: F, h: adjust}
   - G
   - H
   - J
@@ -47,7 +47,7 @@ layers:
   - PLAY PAUSE
   - '-'
   - N
-  - M
+  - {t: M, h: UP ARROW}
   - ','
   - .
   - /
@@ -58,9 +58,9 @@ layers:
   - SPACE
   - RET
   - {t: Gui+`, h: raise}
-  - {t: '=', h: lower}
-  - '['
-  - ']'
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -88,7 +88,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - '!'
-  - '@'
+  - {t: '@', type: held}
   - '#'
   - $
   - '%'
@@ -119,7 +119,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
@@ -150,7 +150,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
-  - LSHFT
+  - {t: LSHFT, type: held}
   - {t: ▽, type: trans}
   - CLCK
   - PG DN
@@ -179,7 +179,7 @@ layers:
   - {t: lower, h: toggle}
   - {t: ▽, type: trans}
   - Gui+TAB
-  - {type: held}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
@@ -212,7 +212,7 @@ layers:
   - RGB BRD
   - RGB BRI
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -227,6 +227,7 @@ layers:
   - ''
   - ''
   - RGB TOG
+  - '&soft_off'
   - ''
   - ''
   - ''
@@ -236,8 +237,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
