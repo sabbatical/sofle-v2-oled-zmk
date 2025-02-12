@@ -54,7 +54,7 @@ layers:
   - {t: '`', h: LCTRL}
   - {t: TAB, h: LALT}
   - {t: Gui+TAB, h: LCMD}
-  - adjust
+  - LEFT COMMAND
   - SPACE
   - RET
   - {t: Gui+`, h: raise}
