@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - '='
   - TAB
   - A
   - {t: S, h: lower}
@@ -35,32 +35,32 @@ layers:
   - J
   - K
   - L
-  - ;
+  - UP
   - ''''
   - LSHFT
   - Z
   - X
   - C
   - V
-  - B
+  - \
   - MUTE
   - PLAY PAUSE
   - '-'
   - N
-  - {t: M, h: UP ARROW}
-  - ','
-  - .
-  - /
-  - {t: '`', h: LCTRL}
-  - {t: TAB, h: LALT}
-  - {t: Gui+TAB, h: LCMD}
-  - LEFT COMMAND
-  - SPACE
-  - RET
-  - {t: Gui+`, h: raise}
-  - LEFT ARROW
-  - DOWN ARROW
+  - M
+  - LEFT
+  - DOWN
   - RIGHT
+  - LCTRL
+  - LALT
+  - LCMD
+  - {t: SPACE, h: lower}
+  - {t: B, h: adjust}
+  - RET
+  - {t: ',', h: raise}
+  - .
+  - ;
+  - {t: /, h: '?'}
   lower:
   - {t: ▽, type: trans}
   - F1
