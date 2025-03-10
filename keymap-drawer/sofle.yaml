@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '='
+  - ''''
   - TAB
   - A
   - {t: S, h: lower}
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - UP
-  - ''''
+  - {t: /, h: '?'}
   - LSHFT
   - Z
   - X
@@ -50,7 +50,7 @@ layers:
   - M
   - LEFT
   - DOWN
-  - RIGHT
+  - {t: RIGHT ARROW, h: RIGHT SHIFT}
   - LCTRL
   - LALT
   - LCMD
@@ -60,7 +60,7 @@ layers:
   - {t: ',', h: raise}
   - .
   - ;
-  - {t: /, h: '?'}
+  - '='
   lower:
   - {t: ▽, type: trans}
   - F1
