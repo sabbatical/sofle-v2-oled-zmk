@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - ''''
+  - {t: '-', h: '{'}
   - TAB
   - A
   - {t: S, h: lower}
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - UP
-  - {t: /, h: '?'}
+  - ''''
   - LSHFT
   - Z
   - X
@@ -45,7 +45,7 @@ layers:
   - \
   - MUTE
   - PLAY PAUSE
-  - '-'
+  - ','
   - N
   - M
   - LEFT
@@ -57,10 +57,10 @@ layers:
   - {t: SPACE, h: lower}
   - {t: B, h: adjust}
   - RET
-  - {t: ',', h: raise}
-  - .
+  - {t: ., h: raise}
   - ;
   - '='
+  - /
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - EP TOG
   - OUT TOG
-  - '`'
+  - '='
   - RGB TOG
   - UP ARROW
   - RGB COLOR HSB(23,90,19)
@@ -244,3 +244,7 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [49, 48]
+  k: '?'
+  l: [default]
