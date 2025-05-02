@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
   default:
   - {t: ESCAPE, h: CLCK}
@@ -45,7 +45,7 @@ layers:
   - \
   - MUTE
   - PLAY PAUSE
-  - ','
+  - ;
   - N
   - M
   - LEFT
@@ -57,8 +57,8 @@ layers:
   - {t: SPACE, h: lower}
   - {t: B, h: adjust}
   - RET
-  - {t: ., h: raise}
-  - ;
+  - {t: ',', h: raise}
+  - .
   - '='
   - /
   lower:
