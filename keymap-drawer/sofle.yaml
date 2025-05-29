@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - {t: ESCAPE, h: CLCK}
+  - ESCAPE
   - '1'
   - '2'
   - '3'
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - {t: '-', h: '{'}
-  - TAB
+  - {t: TAB, h: CAPS}
   - A
   - {t: S, h: lower}
   - {t: D, h: raise}
@@ -58,9 +58,9 @@ layers:
   - {t: B, h: adjust}
   - RET
   - {t: ',', h: raise}
-  - .
-  - '='
-  - /
+  - {t: ., h: RIGHT COMMAND}
+  - {t: '=', h: RIGHT ALT}
+  - {t: /, h: RIGHT CONTROL}
   lower:
   - {t: ▽, type: trans}
   - F1
